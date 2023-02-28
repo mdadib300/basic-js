@@ -11,7 +11,13 @@ let age = 17;
 // boolean
 const isDead = false;
 
-// 3. Math operations
+// 3. variable value update
+
+var value = 50;
+value = 100;
+console.log(value)
+
+// 4. Math operations
 
 const onionPrice = 78;
 const carrotPrice = 83;
