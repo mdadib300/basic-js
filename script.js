@@ -58,3 +58,9 @@ var numI = 10;
 var numII = '10';
 var numIII = true;
 console.log(typeof numI, typeof numII, typeof numIII)
+
+// fix the number height
+var n1 = 10;
+var n2 = 3;
+var res = n1/n2;
+console.log(res.toFixed(2))
