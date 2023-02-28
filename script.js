@@ -25,3 +25,17 @@ console.log("Onion's Price:", onionPrice )
 console.log("Carrot's Price:", carrotPrice )
 console.log("Total price:", onionPrice+carrotPrice)
 console.log("Price difference:", carrotPrice-onionPrice)
+
+// math operations shorthand
+
+var penPrice = 5;
+
+penPrice = penPrice + 1;
+// applied shortcut
+penPrice += 1;
+penPrice -= 1;
+penPrice *= 2;
+penPrice /=2;
+penPrice ++;
+penPrice --;
+console.log(penPrice)
