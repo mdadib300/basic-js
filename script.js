@@ -64,3 +64,9 @@ var n1 = 10;
 var n2 = 3;
 var res = n1/n2;
 console.log(res.toFixed(2))
+
+// Remainder
+var s1 = 49;
+var s2 = 3;
+var res2 = s1%s2;
+console.log(res2)
