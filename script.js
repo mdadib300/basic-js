@@ -49,6 +49,12 @@ console.log(sum)
 
 var firstName = 'Adib ';
 var lastName = 'Chowdhury ';
-var birthGeneration = '3';
+var birthGeneration = 3;
 var fullSummary = firstName + lastName + parseFloat(birthGeneration);
 console.log(fullSummary)
+
+// types of variable
+var numI = 10;
+var numII = '10';
+var numIII = true;
+console.log(typeof numI, typeof numII, typeof numIII)
