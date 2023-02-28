@@ -39,3 +39,16 @@ penPrice /=2;
 penPrice ++;
 penPrice --;
 console.log(penPrice)
+
+// convert string to number and vise versa
+
+var num1 = '50';
+var num2 = 40;
+var sum = parseInt(num1) + num2;
+console.log(sum)
+
+var firstName = 'Adib ';
+var lastName = 'Chowdhury ';
+var birthGeneration = '3';
+var fullSummary = firstName + lastName + parseFloat(birthGeneration);
+console.log(fullSummary)
