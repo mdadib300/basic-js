@@ -1,7 +1,7 @@
-// print output
+// 1. print output
 console.log('kire bhai')
 
-// declaring variable
+// 2. declaring variable
 
 // string
 var name = 'Adib Chowdhury'; 
@@ -10,3 +10,12 @@ const birthYear = 2005;
 let age = 17;
 // boolean
 const isDead = false;
+
+// 3. Math operations
+
+const onionPrice = 78;
+const carrotPrice = 83;
+console.log("Onion's Price:", onionPrice )
+console.log("Carrot's Price:", carrotPrice )
+console.log("Total price:", onionPrice+carrotPrice)
+console.log("Price difference:", carrotPrice-onionPrice)
